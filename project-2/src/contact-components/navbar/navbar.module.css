@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}

@@ -1,0 +1,99 @@
+.hero {
+  max-width: 1172px;
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+  overflow: visible;
+}
+
+/* .hero-content h1 {
+    font-size: 72px;
+} */
+
+.hero-content {
+  width: inherit;
+}
+
+.hero-content p {
+  color: var(--grey);
+  max-width: 975px;
+}
+
+.hero-form_img {
+  display: flex;
+  gap: 81px;
+  padding: 0px;
+  /* margin-top: 20px; */
+}
+
+.hero-form_img form{
+  max-width: 472px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+
+  height: auto;
+}
+
+.hero-form_img button {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+    font-weight:600;
+  width: 220px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero-form_img-buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.hero-form_img form #email {
+    width: 100%;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+.hero-form_img-input  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-form_img-input #fields {
+    display: flex;
+    flex-direction: inherit;
+    gap: 20px;
+}
+
+.hero-form_img-input #fields fieldset {
+    width: 100%;
+}
+.hero-form_img-input legend{
+    font-weight: 600;
+    
+}
+
+.hero-form_img-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-form_img-input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.hero-form_img-input #submit {
+    margin-left: auto;
+}

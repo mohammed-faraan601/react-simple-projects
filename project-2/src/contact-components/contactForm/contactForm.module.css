@@ -1,0 +1,65 @@
+.contact_section {
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 81px;
+  height: calc(100vh - 72px);
+  height: 520px;
+}
+
+.contact_section_form {
+  max-width: 472px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  justify-content: center;
+}
+
+.top_btn {
+  display: flex;
+  gap: 32px;
+}
+
+.contact_section_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 440px;
+  margin: 0 auto;
+
+}
+
+.input_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input_container label {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.input_container input {
+  height: 40px;
+  padding: 0 8px;
+  border: 1px solid gray;
+}
+
+.input_container textarea {
+  padding: 8px;
+  border: 1px solid gray;
+
+}
+
+.contact_image img {
+  height: 515px;
+}
+

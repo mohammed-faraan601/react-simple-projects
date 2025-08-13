@@ -1,0 +1,15 @@
+.contact_header {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.contact_header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.contact_header p {
+    color: var(--grey);
+    font-size: 16px;
+}
